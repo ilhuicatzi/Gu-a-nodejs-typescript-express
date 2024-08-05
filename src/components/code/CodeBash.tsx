@@ -1,20 +1,19 @@
 
 import hljs from "highlight.js";
 import "highlight.js/styles/an-old-hope.css";
-import javascript from "highlight.js/lib/languages/javascript";
+import bash from "highlight.js/lib/languages/bash";
 import { CopyIcon } from "../../assets/icons/CopyIcon";
 import { Toaster, toast } from 'sonner'
 
-hljs.registerLanguage("javascript", javascript);
+hljs.registerLanguage("bash", bash);
 
 type Props = {
   codeString: string,
-  size: string
 }
 
-function CodeComponent({ codeString, size} : Props) {
+function CodeBash({ codeString} : Props) {
   const highlightedCode = hljs.highlight(codeString, {
-    language: "javascript",
+    language: "bash",
   }).value;
 
     const copyCode = () => {
@@ -30,10 +29,10 @@ function CodeComponent({ codeString, size} : Props) {
           <CopyIcon />
         </button>
       </div>
-      <div className={`w-full bg-zinc-200 dark:bg-zinc-900/70 rounded-lg overflow-auto h-[${size}]`}>
+      <div className={`w-full bg-zinc-200 dark:bg-zinc-900/70 rounded-lg overflow-auto `}>
         <pre>
           <code
-            className="block px-4 pb-4 text-sm language-javascript"
+            className="block px-4 pb-4 text-sm language-bash"
             dangerouslySetInnerHTML={{ __html: highlightedCode }}
           ></code>
         </pre>
@@ -43,4 +42,4 @@ function CodeComponent({ codeString, size} : Props) {
   );
 }
 
-export default CodeComponent;
+export default CodeBash;

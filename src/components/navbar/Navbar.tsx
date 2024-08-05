@@ -6,7 +6,7 @@ function Navbar() {
   return (
     <nav className="flex justify-between items-center sm:px-16 px-4 py-3">
       <Link to="/">
-        <h2 className="text-3xl font-medium hover:underline">API</h2>
+        <img className="w-12 h-12 object-cover rounded-full border-2 border-transparent hover:border-blue-600" src="/zao-logo.jpeg" alt="zao logo" />
       </Link>
       <ul className="flex items-center gap-2">
         <li className="px-4 rounded-lg hover:bg-zinc-200 dark:hover:bg-zinc-800">

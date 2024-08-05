@@ -22,3 +22,7 @@ class Expire extends React.Component {
 export default uniquePropHOC(["time", "seconds"])(Expire);
 
 `
+
+export const CodeExample2 = `
+npm install --save react react-dom
+`
