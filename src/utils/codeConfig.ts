@@ -1,3 +1,4 @@
+
 export const codeTsconfigModified2 = `{
   "compilerOptions": {
     /* Language and Environment */
@@ -69,3 +70,96 @@ export const codeESLint = `{
       }
     ]
   }`;
+
+  export const dataTsConfigComentarios = [
+    {
+        id: 1,
+        elemento: "target",
+        descripcion: "Define la versión de JavaScript a la que se compilará el código."
+    },
+    {
+        id: 2,
+        elemento: "module",
+        descripcion: "Especifica el sistema de módulos que se utilizará."
+    },
+    {
+        id: 3,
+        elemento: "rootDir",
+        descripcion: "Indica la ubicación de los archivos fuente."
+    },
+    {
+        id: 4,
+        elemento: "outDir",
+        descripcion: "Define dónde se guardarán los archivos compilados."
+    },
+    {
+        id: 5,
+        elemento: "allowSyntheticDefaultImports",
+        descripcion: "Permite importar módulos sin exportaciones predeterminadas."
+    },
+    {
+        id: 6,
+        elemento: "esModuleInterop",
+        descripcion: "Facilita la interoperabilidad entre diferentes sistemas de módulos."
+    },
+    {
+        id: 7,
+        elemento: "forceConsistentCasingInFileNames",
+        descripcion: "Asegura consistencia en el uso de mayúsculas y minúsculas en los nombres de archivo."
+    },
+    {
+        id: 8,
+        elemento: "strict",
+        descripcion: "Activa todas las comprobaciones de tipo estrictas."
+    },
+    {
+        id: 9,
+        elemento: "noImplicitAny",
+        descripcion: "Evita el uso implícito del tipo any."
+    },
+    {
+        id: 10,
+        elemento: "noUnusedLocals",
+        descripcion: "Genera errores para variables locales no utilizadas."
+    },
+    {
+        id: 11,
+        elemento: "noUnusedParameters",
+        descripcion: "Genera errores para parámetros de función no utilizados."
+    },
+    {
+        id: 12,
+        elemento: "noImplicitReturns",
+        descripcion: "Asegura que todas las rutas de una función devuelvan un valor."
+    },
+    {
+        id: 13,
+        elemento: "noFallthroughCasesInSwitch",
+        descripcion: "Evita caídas en las instrucciones switch."
+    },
+    {
+        id: 14,
+        elemento: "skipLibCheck",
+        descripcion: "Omite la verificación de tipos en bibliotecas."
+    },
+    {
+        id: 15,
+        elemento: "noEmitOnError",
+        descripcion: "Previene la emisión de archivos si hay errores."
+    },
+    {
+        id: 16,
+        elemento: "baseUrl y paths",
+        descripcion: "Facilitan la importación de módulos desde rutas específicas."
+    },
+    {
+        id: 17,
+        elemento: "include",
+        descripcion: "Especifica los archivos que se deben compilar."
+    },
+    {
+        id: 18,
+        elemento: "exclude",
+        descripcion: "Define qué archivos o carpetas se deben omitir en la compilación."
+    },
+]

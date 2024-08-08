@@ -1,4 +1,4 @@
-import CodeJs from '@/components/code/CodeJs'
+import CodeComponent from '@/components/code/CodeComponent'
 import { codeControladores } from '@/utils/codeRutas'
 
 
@@ -13,7 +13,7 @@ function Seccion3() {
     <p className="mt-6">
     Siguiendo el ejemplo anterior, podrías tener un controlador para manejar las operaciones relacionadas con los usuarios:
     </p>
-    <CodeJs codeString={ codeControladores} />
+    <CodeComponent codeString={ codeControladores} />
     </section>
   )
 }

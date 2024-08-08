@@ -1,4 +1,4 @@
-import CodeJs from "../code/CodeJs"
+import CodeComponent from "../code/CodeComponent"
 import { codeIntegracion } from "@/utils/codeRutas"
 
 function Seccion4() {
@@ -8,7 +8,7 @@ function Seccion4() {
     <p className="mt-6">
     Luego, puedes integrar las rutas y los controladores de la siguiente manera:
     </p>
-    <CodeJs codeString={ codeIntegracion} />
+    <CodeComponent codeString={ codeIntegracion} />
     <p>
         Note que al importar el controlador, se está importando la función que se encarga de manejar las solicitudes a la ruta <code>/users</code>. Haciendo esto, el código de la ruta se mantiene limpio y fácil de leer.
     </p>

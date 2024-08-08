@@ -17,13 +17,13 @@ function Navbar() {
             </Link>
           </li>
           <li className="px-4 py-1 text-md font-medium hover:text-blue-600 rounded-lg hover:bg-zinc-200 dark:hover:bg-zinc-800">
-            <Link to="/configuracion">Configuración</Link>
+            <Link to="/configuracion/#configuracion">Configuración</Link>
           </li>
           <li className="px-4 py-1 text-md font-medium hover:text-blue-600 rounded-lg hover:bg-zinc-200 dark:hover:bg-zinc-800">
-            <Link to="/inicializacion">Inicialización</Link>
+            <Link to="/inicializacion/#inicializacion">Inicialización</Link>
           </li>
           <li className="px-4 py-1 text-md font-medium hover:text-blue-600 rounded-lg hover:bg-zinc-200 dark:hover:bg-zinc-800">
-            <Link to="/rutas">Routes</Link>
+            <Link to="/rutas/#rutas">Routes</Link>
           </li>
         </ul>
         <ul className="flex items-center gap-2">

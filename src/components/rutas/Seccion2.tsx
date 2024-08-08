@@ -1,4 +1,4 @@
-import CodeJs from "../code/CodeJs"
+import CodeComponent from "../code/CodeComponent"
 import { codeRutas } from "@/utils/codeRutas"
 
 function Seccion2() {
@@ -12,7 +12,7 @@ function Seccion2() {
     <p className="mt-6">
         Para este ejemplo consideremos un CRUD de usuarios. En Express, puedes definir rutas de la siguiente manera:
     </p>
-    <CodeJs codeString={codeRutas} />
+    <CodeComponent codeString={codeRutas} />
     </section>
 
   )

@@ -1,5 +1,4 @@
-import CodeBash from "@/components/code/CodeBash";
-import CodeJson from "@/components/code/CodeJson";
+import CodeComponent from "@/components/code/CodeComponent";
 import { codeInitScripts } from "@/utils/codeInit";
 
 function Seccion3() {
@@ -11,10 +10,10 @@ function Seccion3() {
       <div className="mt-2">
         Para inicializar un servidor con Express, es necesario instalar
         express
-        <CodeBash codeString="$ npm install express" />
+        <CodeComponent codeString="$ npm install express" />
         y al estar trabajando con TypeScript, también se debe instalar el
         paquete
-        <CodeBash codeString="$ npm install @types/express -D" />
+        <CodeComponent codeString="$ npm install @types/express -D" />
         ya que este paquete contiene las definiciones de tipos de
         TypeScript para Express.
       </div>
@@ -25,12 +24,12 @@ function Seccion3() {
       <div className="mt-2">
         Morgan es un middleware para registrar las solicitudes HTTP en la
         consola. Para instalarlo, se debe ejecutar el siguiente comando:
-        <CodeBash codeString="$ npm install morgan" />
+        <CodeComponent codeString="$ npm install morgan" />
       </div>
       <div className="mt-2">
         Al igual que con Express, es necesario instalar las definiciones
         de tipos de TypeScript para Morgan:
-        <CodeBash codeString="$ npm install @types/morgan -D" />
+        <CodeComponent codeString="$ npm install @types/morgan -D" />
       </div>
     </article>
 
@@ -40,7 +39,7 @@ function Seccion3() {
         Ts-node-dev es una herramienta que permite ejecutar archivos
         TypeScript directamente en Node.js. Para instalarlo, se debe
         ejecutar el siguiente comando:
-        <CodeBash codeString="$ npm install ts-node-dev -D" />
+        <CodeComponent codeString="$ npm install ts-node-dev -D" />
       </div>
     </article>
 
@@ -53,7 +52,7 @@ function Seccion3() {
         servidor con Express. Para ello será necesario crear los comandos
         de inicio en el archivo <code>package.json</code>. Recomendamos
         agregar los siguientes scripts:
-        <CodeJson codeString={codeInitScripts} />
+        <CodeComponent codeString={codeInitScripts} />
       </div>
       <div className="p-6">
         <h1 className="text-2xl font-bold mb-4">

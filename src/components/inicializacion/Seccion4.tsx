@@ -1,4 +1,4 @@
-import CodeJs from "@/components/code/CodeJs";
+import CodeComponent from "@/components/code/CodeComponent";
 import { codeInitApp, codeInitIndex, codeInitConfig } from "@/utils/codeInit";
 
 function Seccion4() {
@@ -9,7 +9,7 @@ function Seccion4() {
         Con los paquetes instalados, se puede comenzar con el código para
         inicializar el servidor. Para ello, en el archivo{" "}
         <code>src/app.ts</code> se debe agregar el siguiente código:
-        <CodeJs codeString={codeInitApp} />
+        <CodeComponent codeString={codeInitApp} />
       </div>
       <div className="p-6">
         <h1 className="text-2xl font-bold mb-4">Resumen del Código</h1>
@@ -68,7 +68,7 @@ function Seccion4() {
         <code>src/app.ts</code> y la importaremos en el archivo{" "}
         <code>src/index.ts</code> para inicializar el servidor, como se muestra
         en el siguiente código:
-        <CodeJs codeString={codeInitIndex} />
+        <CodeComponent codeString={codeInitIndex} />
       </div>
       <div className="p-6">
         <h1 className="text-2xl font-bold mb-4">Inicio del Servidor</h1>
@@ -96,7 +96,7 @@ function Seccion4() {
           Cabe mensionar que el archivo <code>src/config.ts</code> debe contener
           la constante <code>PORT</code> con el número de puerto en el que se
           desea que el servidor escuche. Por ejemplo:
-          <CodeJs codeString={codeInitConfig} />
+          <CodeComponent codeString={codeInitConfig} />
         </div>
       </div>
 

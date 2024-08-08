@@ -21,7 +21,7 @@ function Inicializacion() {
     };
   }, []);
   return (
-    <div className="grid grid-cols-5">
+    <div className="grid grid-cols-5" id="inicializacion">
       <main className="col-span-4 ml-10 px-10 mr-5">
         <Seccion1 />
         <Seccion2 />

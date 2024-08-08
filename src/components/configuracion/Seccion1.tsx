@@ -1,4 +1,4 @@
-import CodeBash from "@/components/code/CodeBash";
+import CodeComponent from "@/components/code/CodeComponent";
 
 function Seccion1() {
   return (
@@ -15,7 +15,7 @@ function Seccion1() {
     </p>
     <div className="mt-6">
       Para inicializar el proyecto, ejecuta el siguiente comando:
-      <CodeBash codeString="npm init -y"/>
+      <CodeComponent codeString="npm init -y"/>
     </div>
     <p>
       Este comando creará un archivo <code>package.json</code> en la raíz del proyecto.

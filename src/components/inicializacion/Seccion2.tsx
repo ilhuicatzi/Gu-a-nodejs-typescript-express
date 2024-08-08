@@ -1,4 +1,4 @@
-import CodeMd from "@/components/code/CodeMd";
+import CodeComponent from "../code/CodeComponent";
 import { codeInitProject } from "@/utils/codeInit";
 
 
@@ -14,7 +14,7 @@ function Seccion2() {
     <div className="mt-6">
       A continuación se muestra la estructura básica de un servidor con
       Express:
-      <CodeMd codeString={codeInitProject} />
+      <CodeComponent codeString={codeInitProject} />
     </div>
     <div className="p-6">
       <h2 className="text-2xl font-semibold mb-4">Directorios</h2>
