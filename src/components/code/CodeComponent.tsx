@@ -32,7 +32,7 @@ function CodeComponent({ codeString }: Props) {
       <div className="flex justify-end">
         <button
           onClick={copyCode}
-          className="bg-zinc-200 dark:bg-zinc-800 hover:bg-zinc-300 dark:hover:bg-zinc-700 p-1.5 rounded-md"
+          className="bg-zinc-200 absolute dark:bg-zinc-800 hover:bg-zinc-300 dark:hover:bg-zinc-700 p-1.5 rounded-md"
           aria-label="Copiar código"
           title="Copiar código"
         >
