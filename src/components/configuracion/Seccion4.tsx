@@ -6,40 +6,40 @@ function Seccion4() {
   return (
     <section id="configuracion4" className="w-11/12 pt-24 pb-10">
       <h2 className="text-4xl font-semibold">Instalación de ESLint</h2>
-      <p className="mt-6">
+      <div className="mt-6">
         ESLint es una herramienta de análisis de código estático para
         identificar problemas en el código JavaScript. Para instalar ESLint en
         el proyecto, ejecuta el siguiente comando:
         <CodeBash codeString="npm install eslint --save-dev" />
-      </p>
+      </div>
       <p className="mt-6">
         Este comando instalará ESLint como una dependencia de desarrollo en el
         proyecto. Aunque ESLint se puede instalar de forma global, es
         recomendable instalarlo localmente en el proyecto para evitar conflictos
         de versiones.
       </p>
-      <p className="mt-6">
+      <div className="mt-6">
         Otra consideración importante es instalar las reglas de ESLint para
         Typescript. Para ello, ejecuta el siguiente comando:
         <CodeBash codeString="npx @typescript-eslint/parser -D" />
         Este paquete reemplaza al parser predeterminado de ESLint por uno
         específico para TypeScript. Esto permite a ESLint analizar archivos
         TypeScript.
-      </p>
-      <p className="mt-6">
+      </div>
+      <div className="mt-6">
         Otro paquete importante a instalar es el siguiente:
         <CodeBash codeString="npx @typescript-eslint/eslint-plugin -D" />
         Este paquete proporciona las reglas de linting específicas para
         TypeScript. Al instalar este paquete, se habilitan las reglas de linting
         de TypeScript en ESLint.
-      </p>
-      <p className="mt-6">
+      </div>
+      <div className="mt-6">
         Después de instalar los paquetes, debes configurar ESLint para que use
         el parser y el plugin de TypeScript. Puedes hacerlo creando un archivo{" "}
         <code className="font-extralight">`.eslintrc.json`</code> en la raíz de
         tu proyecto y agregando lo siguiente:
         <CodeJson codeString={codeESLint} />
-      </p>
+      </div>
       <div className=" rounded-lg  p-6">
         <h1 className="text-xl font-semibold mb-4">
           Comentarios sobre la .eslintrc.json

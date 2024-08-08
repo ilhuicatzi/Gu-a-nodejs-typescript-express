@@ -31,7 +31,7 @@ function Navbar() {
             <button
               className="flex items-center"
               onClick={() =>
-                window.open("https://github.com/ilhuicatzi", "_blank")
+                window.open("https://github.com/ilhuicatzi/Guia-nodejs-typescript-express", "_blank")
               }
             >
               <GithubIcon className="text-xl" />

@@ -4,7 +4,6 @@ import App from './App.tsx'
 import {ThemeProvider } from "./contexts/ThemeProvider.tsx"
 import { HashRouter } from 'react-router-dom'
 import './index.css'
-//import '@fontsource-variable/inconsolata';
 import '@fontsource-variable/inter';
 
 

@@ -11,11 +11,11 @@ function Seccion2() {
       Como todo proyecto, es necesario tener una estructura de carpetas y
       archivos bien definida.
     </p>
-    <p className="mt-6">
+    <div className="mt-6">
       A continuación se muestra la estructura básica de un servidor con
       Express:
       <CodeMd codeString={codeInitProject} />
-    </p>
+    </div>
     <div className="p-6">
       <h2 className="text-2xl font-semibold mb-4">Directorios</h2>
 

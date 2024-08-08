@@ -8,7 +8,7 @@ function Seccion3() {
     <h2 className="text-4xl font-semibold">Paquetes Necesarios</h2>
     <article className="mt-14">
       <h3 className="text-2xl font-medium font-mono">Express</h3>
-      <p className="mt-2">
+      <div className="mt-2">
         Para inicializar un servidor con Express, es necesario instalar
         express
         <CodeBash codeString="$ npm install express" />
@@ -17,44 +17,44 @@ function Seccion3() {
         <CodeBash codeString="$ npm install @types/express -D" />
         ya que este paquete contiene las definiciones de tipos de
         TypeScript para Express.
-      </p>
+      </div>
     </article>
 
     <article className="mt-20">
       <h3 className="text-2xl font-medium font-mono">Morgan</h3>
-      <p className="mt-2">
+      <div className="mt-2">
         Morgan es un middleware para registrar las solicitudes HTTP en la
         consola. Para instalarlo, se debe ejecutar el siguiente comando:
         <CodeBash codeString="$ npm install morgan" />
-      </p>
-      <p className="mt-2">
+      </div>
+      <div className="mt-2">
         Al igual que con Express, es necesario instalar las definiciones
         de tipos de TypeScript para Morgan:
         <CodeBash codeString="$ npm install @types/morgan -D" />
-      </p>
+      </div>
     </article>
 
     <article className="mt-20">
       <h3 className="text-2xl font-medium font-mono">Ts-node-dev</h3>
-      <p className="mt-2">
+      <div className="mt-2">
         Ts-node-dev es una herramienta que permite ejecutar archivos
         TypeScript directamente en Node.js. Para instalarlo, se debe
         ejecutar el siguiente comando:
         <CodeBash codeString="$ npm install ts-node-dev -D" />
-      </p>
+      </div>
     </article>
 
     <article className="mt-20">
       <h3 className="text-2xl font-medium font-mono">
         Scripts en el package.json
       </h3>
-      <p>
+      <div>
         Con estos paquetes instalados, se puede comenzar a inicializar el
         servidor con Express. Para ello será necesario crear los comandos
         de inicio en el archivo <code>package.json</code>. Recomendamos
         agregar los siguientes scripts:
         <CodeJson codeString={codeInitScripts} />
-      </p>
+      </div>
       <div className="p-6">
         <h1 className="text-2xl font-bold mb-4">
           Descripción de Scripts en package.json
