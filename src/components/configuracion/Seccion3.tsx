@@ -4,8 +4,8 @@ import { codeTsconfigModified2 } from "@/utils/codeConfig";
 
 function Seccion3() {
   return (
-    <section id="configuracion3" className="pt-24 pb-10 w-11/12">
-      <h2 className="text-4xl font-semibold">Configuración de Typescript</h2>
+    <section id="configuracion3" className="md:w-11/12 md:pt-24 pt-5 pb-10 text-sm sm:text-base">
+      <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold">Configuración de Typescript</h2>
       <p className="mt-6">
         Para configurar Typescript en el proyecto, necesitas crear un archivo de
         configuración llamado <code>tsconfig.json</code>. Este archivo es el

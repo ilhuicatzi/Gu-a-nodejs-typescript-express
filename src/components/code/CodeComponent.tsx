@@ -28,7 +28,7 @@ function CodeComponent({ codeString }: Props) {
   };
 
   return (
-    <section className="my-8 rounded-xl relative w-4/5">
+    <section className="my-8 rounded-xl relative md:w-4/5 w-full">
       <div className="flex justify-end">
         <button
           onClick={copyCode}

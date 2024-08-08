@@ -6,7 +6,7 @@ function TsConfigComentarios() {
     <h2 className="text-xl font-bold mb-4">
       Comentarios sobre tsconfig.json
     </h2>
-    <ul className="list-disc pl-5 space-y-2 text-muted-foreground">
+    <ul className="list-disc pl-5 space-y-2 text-muted-foreground overflow-x-scroll min-[330px]:overflow-auto">
         {dataTsConfigComentarios.map((item) => (
             <li key={item.id} className="hover:text-foreground">
                 <span className="text-primary font-extralight font-mono">

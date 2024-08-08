@@ -3,10 +3,10 @@ import { codeInitScripts } from "@/utils/codeInit";
 
 function Seccion3() {
   return (
-    <section id="inicializacion3" className="w-11/12 pt-24 pb-10">
-    <h2 className="text-4xl font-semibold">Paquetes Necesarios</h2>
+    <section id="inicializacion3" className="md:w-11/12 md:pt-24 pt-5 pb-10 text-sm sm:text-base">
+    <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold">Paquetes Necesarios</h2>
     <article className="mt-14">
-      <h3 className="text-2xl font-medium font-mono">Express</h3>
+      <h3 className="text-xl sm:text-2xl font-medium font-mono">Express</h3>
       <div className="mt-2">
         Para inicializar un servidor con Express, es necesario instalar
         express
@@ -20,7 +20,7 @@ function Seccion3() {
     </article>
 
     <article className="mt-20">
-      <h3 className="text-2xl font-medium font-mono">Morgan</h3>
+      <h3 className="text-xl sm:text-2xl font-medium font-mono">Morgan</h3>
       <div className="mt-2">
         Morgan es un middleware para registrar las solicitudes HTTP en la
         consola. Para instalarlo, se debe ejecutar el siguiente comando:
@@ -34,7 +34,7 @@ function Seccion3() {
     </article>
 
     <article className="mt-20">
-      <h3 className="text-2xl font-medium font-mono">Ts-node-dev</h3>
+      <h3 className="text-xl sm:text-2xl font-medium font-mono">Ts-node-dev</h3>
       <div className="mt-2">
         Ts-node-dev es una herramienta que permite ejecutar archivos
         TypeScript directamente en Node.js. Para instalarlo, se debe
@@ -44,7 +44,7 @@ function Seccion3() {
     </article>
 
     <article className="mt-20">
-      <h3 className="text-2xl font-medium font-mono">
+      <h3 className="text-xl sm:text-2xl font-medium font-mono">
         Scripts en el package.json
       </h3>
       <div>
@@ -55,7 +55,7 @@ function Seccion3() {
         <CodeComponent codeString={codeInitScripts} />
       </div>
       <div className="p-6">
-        <h1 className="text-2xl font-bold mb-4">
+        <h1 className="text-xl sm:text-2xl font-bold mb-4">
           Descripción de Scripts en package.json
         </h1>
         <ul className="list-disc pl-5 space-y-2">

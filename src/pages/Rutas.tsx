@@ -21,10 +21,12 @@ function Rutas() {
     return () => {
       window.removeEventListener("scroll", onScroll);
     };
-  }, []);
+  }, [
+    setCurrentSection,
+  ]);
   return (
-    <div className="grid grid-cols-5" id="rutas">
-      <main className="col-span-4 ml-10 px-10 mr-5">
+    <div className="grid grid-cols-1 md:grid-cols-5" id="rutas">
+      <main className="md:col-span-4 sm:ml-4 md:ml-6 lg:ml-10 xl:px-10 md:pl-6 pl-4 lg:mr-5 mt-10">
         <Seccion1 />
         <Seccion2 />
         <Seccion3 />
@@ -32,7 +34,7 @@ function Rutas() {
         <Seccion5 />
         <ButtonNavegacion />
       </main>
-      <article className="col-span-1 mt-5">
+      <article className="col-span-1 mt-5 hidden md:flex justify-start">
         <Sidebar sections={sections} currentSection={currentSection}  />
       </article>
     </div>

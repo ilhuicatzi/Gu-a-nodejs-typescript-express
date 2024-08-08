@@ -3,8 +3,8 @@ import { codeESLint } from "@/utils/codeConfig";
 
 function Seccion4() {
   return (
-    <section id="configuracion4" className="w-11/12 pt-24 pb-10">
-      <h2 className="text-4xl font-semibold">Instalación de ESLint</h2>
+    <section id="configuracion4" className="md:w-11/12 md:pt-24 pt-5 pb-10 text-sm sm:text-base">
+      <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold">Instalación de ESLint</h2>
       <div className="mt-6">
         ESLint es una herramienta de análisis de código estático para
         identificar problemas en el código JavaScript. Para instalar ESLint en
@@ -43,7 +43,7 @@ function Seccion4() {
         <h1 className="text-xl font-semibold mb-4">
           Comentarios sobre la .eslintrc.json
         </h1>
-        <ul className="list-disc pl-5 space-y-2 text-muted-foreground">
+        <ul className="list-disc pl-5 space-y-2 text-muted-foreground overflow-x-scroll min-[330px]:overflow-auto">
           <li>
             <span className="font-extralight font-mono hover:underline text-primary">
               parser:
@@ -188,7 +188,7 @@ function Seccion4() {
             </ul>
           </li>
         </ul>
-        <p className="text-lg mt-4">
+        <p className="mt-4">
           Bueno, hasta aquí hemos llegado con la configuración de nuestro
           proyecto con Node.js y Typescript.
           <br />

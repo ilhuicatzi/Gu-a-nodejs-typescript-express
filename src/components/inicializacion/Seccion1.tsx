@@ -1,8 +1,8 @@
 
 function Seccion1() {
   return (
-    <section id="inicializacion1" className="w-11/12 pt-24 pb-10">
-    <h2 className="text-4xl font-semibold">Introducción</h2>
+    <section id="inicializacion1" className="md:w-11/12 md:pt-24 pt-5 pb-10 text-sm sm:text-base">
+    <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold">Introducción</h2>
     <p className="mt-6">
       Como se mencionó en la sección anterior, a continuación daremos
       inicio a la creación de un servidor con Node.js y Express.

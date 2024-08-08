@@ -5,8 +5,8 @@ import { codeInitProject } from "@/utils/codeInit";
 function Seccion2() {
   return (
     
-    <section id="inicializacion2" className="w-11/12 pt-24 pb-10">
-    <h2 className="text-4xl font-semibold">Estructura Básica</h2>
+    <section id="inicializacion2" className="md:w-11/12 md:pt-24 pt-5 pb-10 text-sm sm:text-base">
+    <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold">Estructura Básica</h2>
     <p className="mt-6">
       Como todo proyecto, es necesario tener una estructura de carpetas y
       archivos bien definida.
@@ -16,12 +16,12 @@ function Seccion2() {
       Express:
       <CodeComponent codeString={codeInitProject} />
     </div>
-    <div className="p-6">
-      <h2 className="text-2xl font-semibold mb-4">Directorios</h2>
+    <div className="md:p-6">
+      <h2 className="text-xl sm:text-2xl font-semibold mb-4">Directorios</h2>
 
       <div className="ml-4">
         <h3 className="text-xl font-medium mb-2">src/</h3>
-        <ul className="list-disc ml-6 mb-4">
+        <ul className="list-disc md:ml-6 mb-4">
           <li className="mb-2">
             <strong>controllers/:</strong> Este directorio contiene los
             controladores de la aplicación. Los controladores son
@@ -59,10 +59,10 @@ function Seccion2() {
         </ul>
       </div>
 
-      <h2 className="text-2xl font-semibold mb-4">Archivos</h2>
+      <h2 className="text-xl sm:text-2xl font-semibold mb-4">Archivos</h2>
 
       <div className="ml-4">
-        <ul className="list-disc ml-6 mb-4">
+        <ul className="list-disc md:ml-6 mb-4">
           <li className="mb-2">
             <strong>.gitignore:</strong> Especifica los archivos y
             directorios que Git debe ignorar. Esto es útil para evitar que
@@ -100,7 +100,7 @@ function Seccion2() {
       </div>
 
       <div className="flex justify-center items-center">
-        <img className="h-96 rounded-xl object-cover" src="/img/setup_node.png" alt="imagen setup project" />
+        <img className="w-96 md:w-[600px] rounded-xl object-cover" width={600} height={500} src="/img/setup_node.png" alt="imagen setup project" />
       </div>
 
       <p className="mt-4">

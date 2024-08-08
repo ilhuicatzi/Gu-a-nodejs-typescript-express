@@ -3,8 +3,8 @@ import { codeInitApp, codeInitIndex, codeInitConfig } from "@/utils/codeInit";
 
 function Seccion4() {
   return (
-    <section id="inicializacion4" className="w-11/12 pt-24 pb-10">
-      <h2 className="text-4xl font-semibold">Inicializando el Servidor</h2>
+    <section id="inicializacion4" className="md:w-11/12 md:pt-24 pt-5 pb-10 text-sm sm:text-base">
+      <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold">Inicializando el Servidor</h2>
       <div className="mt-6">
         Con los paquetes instalados, se puede comenzar con el código para
         inicializar el servidor. Para ello, en el archivo{" "}
@@ -12,8 +12,8 @@ function Seccion4() {
         <CodeComponent codeString={codeInitApp} />
       </div>
       <div className="p-6">
-        <h1 className="text-2xl font-bold mb-4">Resumen del Código</h1>
-        <ul className="list-disc pl-5 space-y-2">
+        <h1 className="text-xl md:text-2xl font-bold mb-4">Resumen del Código</h1>
+        <ul className="list-disc pl-5 space-y-2 overflow-x-scroll min-[330px]:overflow-auto">
           <li>
             <span className="font-semibold">Importaciones:</span> Se importan
             los módulos <code>express</code> para crear la aplicación del
@@ -71,8 +71,8 @@ function Seccion4() {
         <CodeComponent codeString={codeInitIndex} />
       </div>
       <div className="p-6">
-        <h1 className="text-2xl font-bold mb-4">Inicio del Servidor</h1>
-        <ul className="list-disc pl-5 space-y-2">
+        <h1 className="text-xl md:text-2xl font-bold mb-4">Inicio del Servidor</h1>
+        <ul className="list-disc pl-5 space-y-2 overflow-x-scroll min-[330px]:overflow-auto">
           <li>
             <span className="font-semibold">Importaciones:</span> Se importa la
             instancia de la aplicación Express desde el archivo{" "}

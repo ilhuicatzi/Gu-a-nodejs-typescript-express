@@ -2,8 +2,8 @@ import CodeComponent from "@/components/code/CodeComponent";
 
 function Seccion1() {
   return (
-    <section id="configuracion1" className="w-11/12 pt-24 pb-10">
-    <h2 className="text-4xl font-semibold">Inicializa el proyecto</h2>
+    <section id="configuracion1" className="md:w-11/12 md:pt-24 pt-5 pb-10 text-sm sm:text-base">
+    <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold">Inicializa el proyecto</h2>
     <p className="mt-6">
       Para inicializar el proyecto necesitas tener instalado Node.js en tu
       equipo. Si no lo tienes instalado, puedes descargarlo desde la página

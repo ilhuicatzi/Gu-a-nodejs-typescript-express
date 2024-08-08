@@ -19,8 +19,8 @@ const codeJsson_1 = `{
 
 function Seccion2() {
   return (
-    <section id="configuracion2" className="pt-24 pb-10 w-11/12">
-    <h2 className="text-4xl font-semibold">Instalación de Typescript</h2>
+    <section id="configuracion2" className="md:w-11/12 md:pt-24 pt-5 pb-10 text-sm sm:text-base">
+    <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold">Instalación de Typescript</h2>
     <div className="mt-6">
       Typescript es un superconjunto de JavaScript que añade tipado estático al lenguaje.
       Para instalar Typescript en el proyecto, ejecuta el siguiente comando:
