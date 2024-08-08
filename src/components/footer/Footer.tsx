@@ -2,7 +2,7 @@ import { GithubIcon } from "../../assets/icons/GithubIcon"
 import { Linkedin } from "../../assets/icons/Linkedin"
 function Footer() {
   return (
-    <footer className="bg-zitext-zinc-50 dark:bg-zinc-950 w-full flex justify-center px-10 mt-20">
+    <footer className="bg-zitext-zinc-50 dark:bg-zinc-950 w-full flex justify-center px-10 mt-2">
   <section className="container my-5 flex justify-between sm:flex-row flex-col items-center">
     <article>
         <p className="text-xs font-extralight dark:text-zinc-500 text-zinc-500  mb-1"> <code>g.ilhuicatzi@gmail.com</code></p>

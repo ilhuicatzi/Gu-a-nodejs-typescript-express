@@ -21,7 +21,7 @@ function CodeBash({ codeString} : Props) {
     toast.success('Codigo copiado!')
   }
   return (
-    <section className="mb-12 mt-8 rounded-xl relative">
+    <section className="mb-6 mt-4 rounded-xl relative w-4/5">
       <div className="flex justify-end">
         <button 
         onClick={copyCode}
@@ -32,7 +32,7 @@ function CodeBash({ codeString} : Props) {
       <div className={`w-full bg-zinc-200 dark:bg-zinc-900/70 rounded-lg overflow-auto `}>
         <pre>
           <code
-            className="block px-4 pb-4 text-sm language-bash"
+            className="block px-4 py-4 text-sm language-bash"
             dangerouslySetInnerHTML={{ __html: highlightedCode }}
           ></code>
         </pre>

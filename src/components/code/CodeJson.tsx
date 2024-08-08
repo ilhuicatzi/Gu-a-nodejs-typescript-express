@@ -1,19 +1,19 @@
 
 import hljs from "highlight.js";
 import "highlight.js/styles/an-old-hope.css";
-import javascript from "highlight.js/lib/languages/javascript";
+import json from "highlight.js/lib/languages/json";
 import { CopyIcon } from "../../assets/icons/CopyIcon";
 import { Toaster, toast } from 'sonner'
 
-hljs.registerLanguage("javascript", javascript);
+hljs.registerLanguage("json", json);
 
 type Props = {
   codeString: string,
 }
 
-function CodeJs({ codeString } : Props) {
+function CodeJson({ codeString} : Props) {
   const highlightedCode = hljs.highlight(codeString, {
-    language: "javascript",
+    language: "json",
   }).value;
 
     const copyCode = () => {
@@ -21,7 +21,7 @@ function CodeJs({ codeString } : Props) {
     toast.success('Codigo copiado!')
   }
   return (
-    <section className="my-8 rounded-xl relative w-4/5">
+    <section className="mb-6 mt-4 rounded-xl relative w-4/5">
       <div className="flex justify-end">
         <button 
         onClick={copyCode}
@@ -29,10 +29,10 @@ function CodeJs({ codeString } : Props) {
           <CopyIcon />
         </button>
       </div>
-      <div className={`w-full bg-zinc-200 dark:bg-zinc-900/70 rounded-lg overflow-auto`}>
+      <div className={`w-full bg-zinc-200 dark:bg-zinc-900/70 rounded-lg overflow-auto `}>
         <pre>
           <code
-            className="block px-4 pb-4 text-sm language-javascript"
+            className="block px-4 py-4 text-sm language-json"
             dangerouslySetInnerHTML={{ __html: highlightedCode }}
           ></code>
         </pre>
@@ -42,4 +42,4 @@ function CodeJs({ codeString } : Props) {
   );
 }
 
-export default CodeJs;
+export default CodeJson;
